@@ -17,8 +17,21 @@ To get started with Arcsploit, you'll need to install the required dependencies.
    git clone https://github.com/yourusername/arcsploit.git
    cd arcsploit
    ```
+2.Create a virtual environment:
 
-2. Install the required packages using `pip`:
+   ```bash
+   python3 -m venv venv
+   ```
+   Activate the virtual environment:
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+3. Install the required packages using `pip`:
 
    ```bash
    pip install -r requirements.txt
